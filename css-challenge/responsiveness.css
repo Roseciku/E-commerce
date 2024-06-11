@@ -145,9 +145,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    position: absolute;
+    position: relative;
     left: 0px;
-    top: 600%;
+    margin-top: -60px;
+    z-index: 1;
   }
   .bluebackground {
     display: flex;
@@ -168,7 +169,7 @@
   .consultingagencydiv {
     display: flex;
     flex-direction: column;
-    margin-top: 650px;
+    margin-top: 50px;
     text-align: center;
     gap: 10px;
   }

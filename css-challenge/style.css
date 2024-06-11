@@ -46,15 +46,31 @@ body {
   align-items: center;
   margin-right: 20%;
 }
+.rightnavigation button {
+  display: flex;
+
+  padding: 5px;
+  border: 0px;
+  background-color: transparent;
+  color: white;
+  align-items: center;
+}
+.rightnavigation button:hover {
+  background-color: #0092ca;
+}
 .becomeamember li {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.becomeamember {
+.becomeamember button {
   width: 150px;
+  padding: 5px;
+  border: 0px;
+  background-color: transparent;
+  color: white;
 }
-.becomeamember:hover {
+.becomeamember button:hover {
   background-color: #0092ca;
 }
 .navigation li {
@@ -382,34 +398,43 @@ li {
   border: 2px solid #0092ca;
   border-radius: 5px;
   padding: 30px;
-  width: 300px;
+  width: 290px;
+  transition: transform 0.3s ease;
 }
 .freepricing:hover {
   background-color: #142d4c;
   color: white;
-  height: 500px;
+  cursor: pointer;
+  transform: translateY(-15px);
+  height: 480px;
 }
 .standardpricing {
   border: 2px solid #0092ca;
   border-radius: 5px;
   padding: 30px;
-  width: 300px;
+  width: 290px;
+  transition: transform 0.3s ease;
 }
 .standardpricing:hover {
   background-color: #142d4c;
   color: white;
-  height: 500px;
+  cursor: pointer;
+  transform: translateY(-15px);
+  height: 480px;
 }
 .premiumpricing {
   border: 2px solid #0092ca;
   border-radius: 5px;
   padding: 30px;
-  width: 300px;
+  width: 290px;
+  transition: transform 0.3s ease;
 }
 .premiumpricing:hover {
   background-color: #142d4c;
   color: white;
-  height: 500px;
+  cursor: pointer;
+  transform: translateY(-15px);
+  height: 480px;
 }
 .bluebackground img {
   width: 200px;
@@ -441,12 +466,13 @@ li {
   display: flex;
   justify-content: center;
   width: 40%;
-  height: 400px;
+  height: auto;
   margin: 0 auto;
   box-shadow: 0 0 3px;
-  position: absolute;
-  top: 360%;
-  left: 500px;
+  position: relative;
+  z-index: 1;
+  margin-top: -200px;
+  left: 30px;
   background-color: white;
 }
 .bookingappointmentimg {
@@ -492,9 +518,9 @@ li {
   align-items: center;
   width: 50%;
   margin: 0 auto;
-  margin-top: 300px;
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
+  margin-top: 80px;
 }
 .contactus button {
   background-color: #0092ca;
@@ -533,4 +559,7 @@ li {
 }
 .footericons ion-icon {
   color: #0092ca;
+}
+button {
+  cursor: pointer;
 }
