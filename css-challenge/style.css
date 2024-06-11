@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+}
+.hero-cover {
+  background-image: url(./images/hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.leftnavigation {
+  display: flex;
+  flex: 2;
+  gap: 70px;
+  margin-left: 20%;
+}
+.leftnavigation ul {
+  display: flex;
+  gap: 15px;
+}
+#brandname {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.rightnavigation {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-right: 20%;
+}
+.becomeamember li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.becomeamember {
+  width: 150px;
+}
+.becomeamember:hover {
+  background-color: #0092ca;
+}
+.navigation li {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.bestinsurance {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.bestinsurance button {
+  border-radius: 20px;
+  padding: 9px;
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.bestinsurance button:hover {
+  background-color: #0092ca;
+}
+
+.bestinsurance h1 {
+  font-size: 50px;
+}
+.bestinsurance p {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 40px;
+  font-size: 15px;
+}
+.peopleoutline {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  position: absolute;
+  top: 640px;
+  left: 400px;
+  font-family: "Montserrat", sans-serif;
+}
+.peaceofmind {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 3px;
+  width: 220px;
+  padding: 15px;
+  height: 120px;
+  font-size: 12px;
+}
+.peaceofmind:hover {
+  background-color: #0092ca;
+  color: white;
+}
+.peaceofmind:hover ion-icon {
+  color: white;
+}
+.setforlife {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 3px;
+  width: 220px;
+  padding: 15px;
+  font-size: 12px;
+}
+.setforlife:hover {
+  background-color: #0092ca;
+  color: white;
+}
+.setforlife:hover ion-icon {
+  color: white;
+}
+.satisfaction {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 3px;
+  width: 220px;
+  padding: 15px;
+  font-size: 12px;
+}
+.satisfaction:hover {
+  background-color: #0092ca;
+  color: white;
+}
+.satisfaction:hover ion-icon {
+  color: white;
+}
+.peopleoutline ion-icon {
+  color: #0092ca;
+  font-size: 1.5rem;
+}
+
+.peopleoutline2 ion-icon {
+  color: #0092ca;
+  font-size: 2rem;
+}
+
+.peopleoutline2 {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.peaceofmind2 {
+  width: 200px;
+  background-color: white;
+  width: 220px;
+  height: 120px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.setforlife2 {
+  width: 200px;
+  background-color: white;
+  width: 220px;
+  height: 120px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.satisfaction2 {
+  width: 200px;
+  background-color: white;
+  width: 220px;
+  height: 120px;
+  font-size: 12px;
+  text-align: center;
+}
+.greybackground {
+  background-color: rgba(241, 235, 235, 0.774);
+  height: 40%;
+}
+.industry {
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.industry h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.profile-review img {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile-review p {
+  margin-bottom: 10px;
+}
+
+.profile-review {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.profile-review1 {
+  width: 200px;
+  background-color: white;
+  width: 220px;
+  height: 250px;
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 3px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#uncoloredsvg path {
+  fill: #ffffff;
+  stroke: #e8751a;
+}
+.profile-review2 {
+  width: 200px;
+  background-color: white;
+  width: 220px;
+  height: 250px;
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 3px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.profile-review3 {
+  width: 200px;
+  background-color: white;
+  width: 220px;
+  height: 250px;
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 3px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.vectors img {
+  height: 40px;
+}
+.vectors {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    109.6deg,
+    rgb(43, 1, 91) 13.4%,
+    rgb(122, 2, 54) 100.2%
+  );
+  color: white;
+  padding: 10px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  width: 55%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  margin-bottom: 50px;
+}
+.emailinput input {
+  padding: 7px;
+  border-radius: 5px;
+  width: 350px;
+  border: 1px solid white;
+}
+.emailinput button {
+  padding: 8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid white;
+  position: absolute;
+  right: 9px;
+  top: 13px;
+  background-color: #0092ca;
+  color: white;
+}
+.pricing {
+  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+.pricingstandards {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  text-align: center;
+}
+.pricingstandards li {
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.pricingstandards ion-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #0092ca;
+}
+.permonth {
+  text-align: left;
+}
+#pricenumber {
+  font-size: 25px;
+  font-weight: bold;
+}
+.pricingstandards button {
+  background-color: #0092ca;
+  color: white;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #0092ca;
+  border-radius: 5px;
+}
+.freepricing h2 {
+  margin-bottom: 15px;
+}
+.freepricing p {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.standardpricing h2 {
+  margin-bottom: 15px;
+}
+.standardpricing p {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.premiumpricing h2 {
+  margin-bottom: 15px;
+}
+.premiumpricing p {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.freepricing {
+  border: 2px solid #0092ca;
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+}
+.freepricing:hover {
+  background-color: #142d4c;
+  color: white;
+  height: 500px;
+}
+.standardpricing {
+  border: 2px solid #0092ca;
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+}
+.standardpricing:hover {
+  background-color: #142d4c;
+  color: white;
+  height: 500px;
+}
+.premiumpricing {
+  border: 2px solid #0092ca;
+  border-radius: 5px;
+  padding: 30px;
+  width: 300px;
+}
+.premiumpricing:hover {
+  background-color: #142d4c;
+  color: white;
+  height: 500px;
+}
+.bluebackground img {
+  width: 200px;
+  margin-right: 300px;
+}
+
+.bluebackground {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  background-color: #01013ac2;
+  height: 450px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.bluebackground .leftdiv {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.bluebackground .leftdiv h2 {
+  margin-bottom: 10px;
+}
+.bluebackground .rightdiv {
+  margin-top: 40px;
+}
+.bookingappointment {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 3px;
+  position: absolute;
+  top: 360%;
+  left: 500px;
+  background-color: white;
+}
+.bookingappointmentimg {
+  flex: 1;
+  height: 100%;
+}
+.bookingappointmentimg img {
+  width: 100%;
+  height: 100%;
+}
+.bookingappointmentinput {
+  flex: 2;
+  height: 100%;
+  padding: 20px;
+}
+.bookingappointmentinput h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bookingappointmentinput input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background-color: rgb(218, 208, 208);
+  border: 2px solid rgb(218, 208, 208);
+}
+.bookingappointment button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0092ca;
+  color: white;
+  border: 1px solid #0092ca;
+  border-radius: 5px;
+}
+
+.consultingagencydiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.contactus button {
+  background-color: #0092ca;
+  padding: 5px;
+  width: 100px;
+  border: 1px solid #0092ca;
+  color: white;
+  border-radius: 5px;
+}
+.allcompanyinformation {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+.allcompanyinformation h3 {
+  margin-bottom: 10px;
+}
+.allcompanyinformation li {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+.getintouch ion-icon {
+  color: #0092ca;
+}
+.copyright {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.footericons ion-icon {
+  color: #0092ca;
+}

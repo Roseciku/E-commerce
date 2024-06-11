@@ -1,0 +1,180 @@
+@media (max-width: 375px) {
+  .leftnavigation ul,
+  .rightnavigation ul,
+  .becomeamember ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .bestinsurance button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .bestinsurance h1 {
+    font-size: 20px;
+  }
+  .bestinsurance {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .bestinsurance p {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    font-size: 10px;
+  }
+  .hero-cover {
+    height: 300px;
+  }
+  .peopleoutline {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    gap: 5px;
+  }
+  .peopleoutline2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 300px;
+    margin-bottom: 10px;
+  }
+
+  .industry {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .industry h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .profile-review {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  .vectors img {
+    height: 40px;
+    width: 80%;
+  }
+  .vectors {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+  }
+  .emailinput input {
+    width: 250px;
+  }
+  .emailinput button {
+    position: absolute;
+    top: 58px;
+    right: 1px;
+  }
+  .pricing {
+    font-size: 10px;
+  }
+  .pricingstandards {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricingstandards li {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .pricingstandards ion-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+  .freepricing h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .freepricing p {
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  .standardpricing h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .standardpricing p {
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  .premiumpricing h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .premiumpricing p {
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+  .freepricing:hover {
+    height: 350px;
+  }
+  .standardpricing:hover {
+    height: 350px;
+  }
+  .premiumpricing:hover {
+    height: 350px;
+  }
+
+  .bluebackground {
+    height: 600px;
+  }
+  .bookingappointment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 600%;
+  }
+  .bluebackground {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bluebackground .leftdiv {
+    width: 100%;
+    font: 10px;
+  }
+  .bluebackground .leftdiv h2 {
+    margin-bottom: 10px;
+    font: 9px;
+  }
+  .bluebackground .leftdiv p {
+    font: 10px;
+  }
+  .consultingagencydiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 650px;
+    text-align: center;
+    gap: 10px;
+  }
+  .allcompanyinformation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
